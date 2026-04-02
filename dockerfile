@@ -1,6 +1,5 @@
 FROM nginx
 WORKDIR /app
-COPY ./src .
 
 RUN apt-get update
 RUN apt-get install -y git
